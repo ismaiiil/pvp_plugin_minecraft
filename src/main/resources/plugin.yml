@@ -1,0 +1,6 @@
+name: PvPPlugin
+version: ${project.version}
+main: com.ismaiiiil.pvp_plugin.PvPPlugin
+api-version: 1.16
+authors: [ Ismail_Nassurally ]
+description: A simple plugin to manage arenas and PVP
