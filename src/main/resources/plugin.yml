@@ -1,6 +1,11 @@
-name: PvPPlugin
+name: pvpplugin
 version: ${project.version}
 main: com.ismaiiiil.pvp_plugin.PvPPlugin
 api-version: 1.16
 authors: [ Ismail_Nassurally ]
 description: A simple plugin to manage arenas and PVP
+
+commands:
+  pvp:
+    description: Command used to pvp between players
+    usage: /pvp fight <player1> <player2> <arena>
