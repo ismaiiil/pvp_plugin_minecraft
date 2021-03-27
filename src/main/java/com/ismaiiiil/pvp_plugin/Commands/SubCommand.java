@@ -1,6 +1,6 @@
 package com.ismaiiiil.pvp_plugin.Commands;
 
-import org.bukkit.entity.Player;
+import org.bukkit.command.CommandSender;
 
 public abstract class SubCommand {
     public abstract String getName();
@@ -9,5 +9,5 @@ public abstract class SubCommand {
 
     public abstract  String getSyntax();
 
-    public abstract boolean perform(Player player, String args[]);
+    public abstract void perform(CommandSender sender, String args[]);
 }

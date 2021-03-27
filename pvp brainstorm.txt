@@ -1,31 +1,48 @@
 blue team red team
 multiple palyers
 multiple arenas
+confirmation popup for players who want to fight
+fight command for non oped players
 dupe 1 arena for multiple players
 have classes (diferent loadout)
+use stick to mark arena area\loadout area
 ranking, more points??
 
 
-string to coordinate and vice versa
 
+declares an arena team 1 lobby point
+declares an arena team 2 lobby point
+declares an arena team 1 spawn point
+declares an arena team 2 spawn point
 
-set each player IDs
-run a function that declares an arena player 1 spawn point
-run a function that declares an arena player 2 spawn point
 run a function that stores player1 player2 and arena they want to fight in
 checks if the arena is not occupied
-2 players get teleported to the prepare section,
+2 players get teleported to the lobby section,
 their current loot is stored in a chest
-new loot is given them and they can equip the loot
-their previous spawn point is saved
-the new spawn point is saved
+new loot is given them and they can equip the loot (choose class first?)
+their previous point is saved
 players must click on ready button
 countdown starts
-
-when player die they respawn in respawn point in arena
 when player loses or wins they are teleported or respawn at the point they previously were
 
-their respawn point is then reinitialised
+
+config file management
+Goal : save current coordinates of player in config file
+add option to reload config file (external modifications)
+
+Data structures:
+
+Arenas
+    Arena1 spawn1 spawn2
+    Arena2 spawn1 spawn2
+
+Players
+    UUID Previous_location XP inventory
+
+Games
 
 
-STORE USING TAGS????
+mklink "C:\Users\ismai\Local Documents\mc_paper_debug_server\plugins\pvp_plugin.jar" "C:\Users\ismai\IdeaProjects\PvP Plugin\target\pvp_plugin-1.0-SNAPSHOT.jar"
+
+
+

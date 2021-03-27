@@ -7,5 +7,5 @@ description: A simple plugin to manage arenas and PVP
 
 commands:
   pvp:
-    description: Command used to pvp between players
-    usage: /pvp fight <player1> <player2> <arena>
+    description: Command used to pvp
+    usage: /pvp [ fight | arena_setspawn ]
